@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import ReactDOM from "react-dom/client";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTrashCan } from '@fortawesome/free-solid-svg-icons';
+import "../styles/index.css";
 
-import "../styles/index.css"; // Tu CSS sencillo
 
 function Tareas() {
   const [tareas, setTareas] = useState([]);
