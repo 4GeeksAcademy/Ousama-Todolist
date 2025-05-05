@@ -1,11 +1,58 @@
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+.lista-tareas {
+    width: 320px;
+    margin: 40px auto;
+    background: #f9f9f9;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #d3d3d3; /* Gris clarito */
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .tarea-item {
+    background: #fff;
+    padding: 8px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    text-align: left;
+    position: relative;
+  }
+  
+  .boton-borrar {
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    background: none;
+    border: none;
+    color: red;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .tarea-item:hover .boton-borrar {
+    display: inline;
+  }
+  
+  p {
+    margin-top: 10px;
+    color: gray;
+    font-size: 14px;
+  }
+  
+  
+  
